@@ -1,0 +1,52 @@
+This is my stylesheet
+body {
+    background-color: rgb(62, 66, 250);
+    border: 2 px solid rgb(5, 112, 53);
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif'
+}
+
+body {background-color: #50ffb6;} 
+
+.main-header {background-color: orange;}
+
+
+h1 {
+    border: 1.5 px solid rgb(5, 192, 77);
+    border-style: solid;
+    padding: 10px;
+    margin:8px;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background: rgb(207, 207, 209);
+    color: #545357;
+}
+
+ h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background : rgb(207, 207, 209);
+    color: rgb(31, 29, 29); 
+ }
+
+ 
+ h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background : rgb(207, 207, 209); 
+    color: rgb(31, 29, 29); 
+ }
+
+ p {
+     font-family: 'Righteous', cursive;
+     text-align: center; 
+     font-size: 40px;
+ }
+
+ img {
+     text-align: center;
+ }
