@@ -1,52 +1,98 @@
-This is my stylesheet
-body {
-    background-color: rgb(62, 66, 250);
+/* This is my stylesheet */
+
+
+.main-body {background-color: #50ffb6;
+    margin: 20;
     border: 2 px solid rgb(5, 112, 53);
     font-size: 60px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif'
-}
+    font-family: 'Open Sans', sans-serif'; 
+} 
 
-body {background-color: #50ffb6;} 
-
-.main-header {background-color: orange;}
-
-
-h1 {
-    border: 1.5 px solid rgb(5, 192, 77);
-    border-style: solid;
-    padding: 10px;
-    margin:8px;
-    font-size: 65px;
+#main-header {
+    border: 4px solid gray;
+    box-sizing: border-box;
+    font-size: 80px;
+    padding-bottom: 60px;
+    padding-top:  20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 60px;
     text-align: center;
     font-family: 'Righteous', cursive;
-    background: rgb(207, 207, 209);
+    background: rgb(199, 196, 197);
     color: #545357;
 }
 
- h2 {
+#main-content {
+    padding-bottom: 60px;
+    padding-top:  60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(142, 248, 199); 
+    font-family: 'Righteous', cursive;
+    text-align: center; 
     font-size: 40px;
+}
+
+#main-image{
+    display: block;
+    margin: 0 auto;
+}
+
+.header {
+
+    font-size: 45px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Righteous', cursive;
     background : rgb(207, 207, 209);
     color: rgb(31, 29, 29); 
+    border-top: 10.0 px solid rgb(78, 80, 79);
+    border-bottom: 10.0 px solid rgb(78, 80, 79);
+    border-style: solid;
  }
-
- 
- h3 {
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    background : rgb(207, 207, 209); 
-    color: rgb(31, 29, 29); 
- }
-
  p {
      font-family: 'Righteous', cursive;
      text-align: center; 
      font-size: 40px;
  }
 
- .img {
-     text-align: center;
- }
+ ul {
+     font-size: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.needs-validation { background : rgb(207, 207, 209); 
+    border-top: 10.0 px solid rgb(78, 80, 79);
+    border-bottom: 10.0 px solid rgb(78, 80, 79);
+    border-style: solid;
+    padding-bottom: 60px;
+    padding-top:  20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+/***--media queries***/
+@media only screen and (min-width:450px)  {
+    header {
+float: center;
+width:100%;
+margin: 0 0 0 0%;
+padding:25px;
+margin-bottom:0;
+    }
+}
+
+@media only screen and (min-width: 700px),
+    only screen and (min-width: 700px) and (orientation: landscape){
+    header {
+        float: center;
+        width:100%;
+        margin: 0 0 0 0%;
+        padding:25px;
+        margin-bottom:0;
+            }
+}
