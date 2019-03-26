@@ -1,7 +1,7 @@
 /* This is my stylesheet */
 
 
-.main-body {background-color: #50ffb6;
+.main-body {background-color: #a6fad7dc;
     margin: 20;
     border: 2 px solid rgb(5, 112, 53);
     font-size: 60px;
@@ -59,10 +59,12 @@
 
  ul {
      font-size: 30px;
-    font-family: 'Righteous', cursive;
+     font-family: 'Righteous', cursive;
+     text-align:left;
 }
 
-.needs-validation { background : rgb(207, 207, 209); 
+.needs-validation {
+    background : rgb(207, 207, 209); 
     border-top: 10.0 px solid rgb(78, 80, 79);
     border-bottom: 10.0 px solid rgb(78, 80, 79);
     border-style: solid;
@@ -70,6 +72,7 @@
     padding-top:  20px;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 30px;
     margin-top: 60px;
     text-align: center;
     font-family: 'Righteous', cursive;
