@@ -38,6 +38,7 @@
 #main-image{
     display: block;
     margin: 0 auto;
+    max-width:95%;
 }
 
 .header {
@@ -62,7 +63,7 @@
      font-family: 'Righteous', cursive;
      text-align:left;
 }
-
+/* bootstrap format */
 .needs-validation {
     background : rgb(207, 207, 209); 
     border-top: 10.0 px solid rgb(78, 80, 79);
@@ -98,4 +99,8 @@ margin-bottom:0;
         padding:25px;
         margin-bottom:0;
             }
+}
+
+#formButton {
+    display:none;
 }
