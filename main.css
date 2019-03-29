@@ -40,6 +40,13 @@
     margin: 0 auto;
     max-width:95%;
 }
+  
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  } 
+ 
 
 .header {
 
@@ -52,6 +59,8 @@
     border-bottom: 10.0 px solid rgb(78, 80, 79);
     border-style: solid;
  }
+
+
  p {
      font-family: 'Righteous', cursive;
      text-align: center; 
@@ -80,6 +89,8 @@
 }
 
 /***--media queries***/
+    
+
 @media only screen and (min-width:450px)  {
     header {
 float: center;
@@ -101,6 +112,10 @@ margin-bottom:0;
             }
 }
 
-#formButton {
-    display:none;
-}
+@media only screen and (max-width: 450px) {
+    slideshow {
+      display: none;
+    }
+  }
+ 
+   

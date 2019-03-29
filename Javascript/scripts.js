@@ -2,12 +2,15 @@
 $('#main-header').hide(1000);
 $('#main-header').fadeIn (1000);
 
+$(".slideshow > div:gt(0)").hide();
 
-$('#main-button').click(function() {
-alert ('Thank you for your request');
-});
+setInterval(function() { 
+  $('.slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('.slideshow');
+},  3000);
 
-
-$('#main-button').click(function(){
-    $('#main-form').toggle();
-     });
+   
