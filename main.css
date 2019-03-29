@@ -44,6 +44,9 @@
 .flex-container {
     display: flex;
     flex-flow: row wrap;
+    min-height:80px;
+    transition: height .66s ease-out;
+    background-color: rgb(78, 80, 79);
     justify-content: space-around;
   } 
  
